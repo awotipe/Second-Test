@@ -1,0 +1,94 @@
+.container {
+    background: #EDF1FF;
+    margin-left: 15.3rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.bigText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date{
+    display: flex;
+    width: 15%;
+}
+
+.date>img{
+    width: 20px;
+    height: 18px;
+    margin-top: 0.2rem;
+    padding-left: 0.3rem;
+}
+
+.btn{
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    height: 70px;
+}
+
+.btn button{
+    align-items: center;
+    padding: 5px 12px;
+    width: 131px;
+    background: #4C6FFF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btn p{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    background: #ffffff;
+    padding-top: 0.6rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1D242D;
+}
+
+.transact{
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    width: 204px;
+    height: 104px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 1rem;
+
+}
+
+.flex{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.flex>img{
+    padding-right: 0.5rem;
+}
+
+.flex p{
+    font-size: 14px;
+}
+
+.total h3{
+    font-style: bold;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383737;
+    padding-top: 1rem;
+}
