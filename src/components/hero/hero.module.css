@@ -92,3 +92,25 @@
     color: #383737;
     padding-top: 1rem;
 }
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading th{
+    /* width: 175.13px; */
+    height: 54px;
+    background: #EDF1FF;
+}
+
+table td{
+    width: 175.13px;
+    height: 51px;
+    background: #F7FAFC;
+    padding-left: 4rem;
+}
+
+table{
+    background: #ffffff;
+}

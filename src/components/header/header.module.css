@@ -1,7 +1,5 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
+    width: 100%;
     margin: auto;
     padding-top: 1rem;
     height: 96px;
@@ -9,8 +7,16 @@
     box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.05);
 }
 
+.inner{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
 .logo>img {
     padding-right: 1.5rem;
+    /* padding-top:1rem; */
 }
 
 .logo input{
@@ -24,6 +30,7 @@
     background: url('../../assets/search-normal.png');
     background-repeat: no-repeat;
     background-position: 7px 7px;
+    border-width: 1px;
 }
 
 ::-webkit-input-placeholder {
@@ -38,4 +45,14 @@
 
 .icons>img{
     padding-left: 1.5rem;
+}
+
+.bell>img{
+    margin-top: 0.7rem;
+    padding-right: 0.5rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
 }
