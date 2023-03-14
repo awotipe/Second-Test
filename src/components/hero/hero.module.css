@@ -27,33 +27,48 @@
     display: flex;
     margin-top: 2rem;
     padding-bottom: 2rem;
-    height: 70px;
+    /* height: 70px; */
 }
 
-.btn button{
+.btn1 button{
     align-items: center;
     padding: 5px 12px;
     width: 131px;
+    height: 46px;
     background: #4C6FFF;
     border-radius: 5px;
     border: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
-.btn p{
-    padding-left: 2rem;
-    padding-right: 1rem;
-    background: #ffffff;
-    padding-top: 0.6rem;
+.btn1 button:hover{
+    background: #FFFFFF;
+    color: #1D242D;
+}
+
+.btn2 button{
+    align-items: center;
+    padding: 5px 12px;
+    width: 126px;
+    height: 46px;
+    background: #FFFFFF;
+    border: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     color: #1D242D;
+    cursor: pointer;
+}
+
+.btn2 button:hover{
+    background: #4C6FFF;
+    color: #FFFFFF;
 }
 
 .transact{
@@ -98,19 +113,60 @@
     justify-content: space-between;
 }
 
+.wrapper{
+    background: #fff;
+}
+
 .heading th{
-    /* width: 175.13px; */
+    width: 165.13px;
     height: 54px;
     background: #EDF1FF;
+    text-align: left;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;;
 }
 
 table td{
-    width: 175.13px;
+    width: 165.13px;
     height: 51px;
     background: #F7FAFC;
-    padding-left: 4rem;
+    padding-left: 2rem;
+   
 }
 
-table{
-    background: #ffffff;
+.wrapper{
+    background: #FFFFFF;
+    border-radius: 10px; 
+    padding: 0 30px;   
+}
+
+table .approved{
+    width: 33px;
+    height: 27px;
+    align-items: center;
+    padding: 4px 16px;
+    background: #C3F1CA;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3DD154;
+} 
+
+table span{
+    align-items: center;
+    padding: 4px 27px;
+    width: 73px;
+    height: 27px;
+    background: #FCE8E8;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #DC1D1D;
 }

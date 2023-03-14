@@ -23,11 +23,15 @@ const hero = () => {
         <p>Here's what is happening with your Terminals today,</p>
       </div>
       <div className={classes.btn}>
-        <button>Transactions</button>
-        <p>Settlements</p>
-        <p>Performance</p>
-        <p>Terminal Health</p>
-        <p>Bank Statement</p>
+      <div className={classes.btn1}>
+            <button >Transactions</button>
+        </div>
+      <div className={classes.btn2}>
+        <button>Settlements</button>
+        <button>Performance</button>
+        <button>Terminal Health</button>
+        <button>Bank Statement</button>
+      </div>
       </div>
       <div className={classes.transact}>
         <div className={classes.total}>
@@ -78,6 +82,7 @@ const hero = () => {
         <img src={download} alt="download" />
         </div>
         </div>
+        <div className={classes.wrapper}>
         <table>
             <tr className={classes.heading}>
                 <th>Time</th>
@@ -93,7 +98,7 @@ const hero = () => {
                 <td>Card</td>
                 <td>23012100</td>
                 <td>07613***67</td>
-                <td className={classes.approved} >Approved</td>
+                <td><span className={classes.approved} >Approved</span></td>
             </tr>
             <tr>
                 <td>12:08 pm</td>
@@ -101,7 +106,7 @@ const hero = () => {
                 <td>Transfer</td>
                 <td>23013201</td>
                 <td>07613***67</td>
-                <td className={classes.approved}>Approved</td>
+                <td><span className={classes.approved} >Approved</span></td>
             </tr>
             <tr>
                 <td>11:32 am</td>
@@ -109,7 +114,7 @@ const hero = () => {
                 <td>Card</td>
                 <td>23019800</td>
                 <td>07613***67</td>
-                <td className={classes.approved}>Approved</td>
+                <td><span className={classes.approved} >Approved</span></td>
             </tr>
             <tr>
                 <td>11:25 am</td>
@@ -117,7 +122,7 @@ const hero = () => {
                 <td>Card</td>
                 <td>23014019</td>
                 <td>07613***67</td>
-                <td className={classes.failed}>Failed</td>
+                <td><span>Failed</span></td>
             </tr>
             <tr>
                 <td>11:20 am</td>
@@ -125,7 +130,7 @@ const hero = () => {
                 <td>Transfer</td>
                 <td>23011100</td>
                 <td>07613***67</td>
-                <td className={classes.failed}>Failed</td>
+                <td><span>Failed</span></td>
             </tr>
             <tr>
                 <td>11:05 am</td>
@@ -133,7 +138,7 @@ const hero = () => {
                 <td>Transfer</td>
                 <td>09087043AA</td>
                 <td>07613***67</td>
-                <td className={classes.failed}>Failed</td>
+                <td><span>Failed</span></td>
             </tr>
             <tr>
                 <td>10:30 am</td>
@@ -141,7 +146,7 @@ const hero = () => {
                 <td>Card</td>
                 <td>09087043AA</td>
                 <td>07613***67</td>
-                <td className={classes.failed}>Failed</td>
+                <td><span>Failed</span></td>
             </tr>
             <tr>
                 <td>10:05 am</td>
@@ -149,7 +154,7 @@ const hero = () => {
                 <td>Card</td>
                 <td>09087043AA</td>
                 <td>07613***67</td>
-                <td className={classes.failed}>Failed</td>
+                <td><span>Failed</span></td>
             </tr>
             <tr>
                 <td>9:50 am</td>
@@ -157,9 +162,10 @@ const hero = () => {
                 <td>Card</td>
                 <td>09087043AA</td>
                 <td>07613***67</td>
-                <td className={classes.failed}>Failed</td>
+                <td><span>Failed</span></td>
             </tr>
         </table>
+        </div>
       </div>
     </div>
   );
