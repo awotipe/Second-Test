@@ -1,0 +1,104 @@
+.container h3{
+    padding-bottom: 1.5rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.card{
+    width: 354px;
+    height: 264px;
+    background: #FFFFFF;
+    border-radius: 9.0932px;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.dutch{
+    background: linear-gradient(65.58deg, #1E1D1D -11.84%, #535353 98.75%);
+    border-radius: 18.1864px;
+    width: 280px;
+    height: 97px;
+    border-radius: 18.19px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 2.2rem;
+}
+
+.nigeria{
+    display: flex;
+    width: 170.16px;
+    height: 22px;
+}
+
+
+.nigeria p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FEFEFE;
+    padding-left: 0.5rem;
+}
+
+.card h5{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1D242D;
+}
+
+.wrap{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.approved{
+    margin-right: 3.5rem;
+}
+
+.approved p{
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1D242D;
+}
+
+.approved p span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3DD154;
+}
+
+.failed p{
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1D242D;
+}
+
+.failed p span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #E34A4A;
+}
+
+
